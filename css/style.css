@@ -1,0 +1,96 @@
+.top-container{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+}
+
+
+.middle-container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+.bottom-container{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* --------------------- (ba komak relaative )---------------------------------*/
+.top-container1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px;
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+
+    display: inline-block;
+    
+}
+
+
+.middle-container1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 20px;
+    border-style: solid;
+    border-color: black;
+
+    display: inline-block;
+    position: relative;top: 365px;
+    position: relative;right: 5px;
+}
+
+.bottom-container1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+
+    display: inline-block;
+    position: relative;top: 585px;
+    position: relative;right: 8px;
+    
+
+
+}
+
+.link1 {
+    position: relative;top: 800px;
+    color: rgb(253, 253, 253);
+    padding: 30px;
+    border-radius: 15px;
+    text-decoration: double;
+    
+}
+a:link{
+    background-color: rgb(18, 215, 236);
+
+}
+a:visited{
+
+    background-color: rgb(220, 41, 41);
+
+}
+a:hover{
+
+    background-color: rgb(52, 20, 232);
+
+}
+a:active{
+
+    background-color: hotpink;
+}
